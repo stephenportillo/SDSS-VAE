@@ -15,7 +15,7 @@ This is the code repository for Portillo, Parejko, Vergara, and Connolly (2020).
 2. The Jupyter notebook `SDSS-VAE.ipynb` will produce all of the quantitative figures in the paper.
 
 ## Retraining the autoencoders
-1. Download the SDSS spectra we used by running `download.sh`.
+1. Download the SDSS spectra we used by running `download.sh`; alternately, the SDSS query, de-redshifting, and PCA infill can be rerun with `compute_sdss_pca.py`.
 2. Run `trainVAE.py` to train a set of VAEs: this file can be edited to change the tag that the VAEs are saved with, the latent space dimension, the number of different VAEs trained, and the range of hyperparameters used, among other things.
 3. The trained VAEs will be saved in a directory with the tag name, along with `metrics.npz` containing performance metrics.
 4. Before training AEs, run `postprocess.py` to yield `spec64k_normed.npz`.
