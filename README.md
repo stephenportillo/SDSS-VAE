@@ -1,5 +1,5 @@
 # Dimensionality Reduction of SDSS Spectra with Variational Autoencoders
-This is the code repository for Portillo, Parejko, Vergara, and Connolly (2020).
+This is the code repository for [Portillo, Parejko, Vergara, and Connolly (2020)](https://arxiv.org/abs/2002.10464).
 
 ## Prerequisites
 * Python 3
